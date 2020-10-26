@@ -1,0 +1,58 @@
+body{
+  background-color: gray;
+}
+.btn {
+  float:right;
+  margin-top: 30px;
+  margin-right: 300px;
+  background-color: blue;
+  color: white;
+  width:60px;
+  height: 30px;
+}
+
+.divTable{
+	display: table;
+	width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 0;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+img {
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+span {
+  text-align: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
